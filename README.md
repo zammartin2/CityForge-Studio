@@ -20,11 +20,11 @@
    ```bash
    git clone https://github.com/yourname/sityfactory-studio.git
    cd sityfactory-studio
-
+```
 python -m venv venv
 source venv/bin/activate   # Linux/macOS
 venv\Scripts\activate      # Windows
-
+```
 pip install -r requirements.txt
 
 ```
@@ -56,12 +56,14 @@ pip install -r requirements.txt
 └── README.md
 ```
 
-⚙️ Конфигурация
-Все константы (размеры узлов, цвета, шаг сетки) вынесены в utils/config.py:
+## ⚙️ Конфигурация
+ Все константы (размеры узлов, цвета, шаг сетки) вынесены в utils/config.py:
+```
 GRID_SIZE = 20
 GRID_COLOR = (200, 200, 200, 30)
 NODE_WIDTH = 120
 NODE_HEIGHT = 50
 NODE_FILL_COLOR = "#2c2c2c"
 NODE_BORDER_COLOR = "#555"
+```
 
