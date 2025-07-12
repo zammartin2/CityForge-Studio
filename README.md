@@ -27,7 +27,7 @@ venv\Scripts\activate      # Windows
 
 pip install -r requirements.txt
 
-.
+```
 ├── main.py
 ├── core/
 │   ├── graph.py
@@ -54,6 +54,8 @@ pip install -r requirements.txt
 │   └── logo.png
 ├── requirements.txt
 └── README.md
+```
+
 ⚙️ Конфигурация
 Все константы (размеры узлов, цвета, шаг сетки) вынесены в utils/config.py:
 GRID_SIZE = 20
